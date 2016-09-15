@@ -212,7 +212,7 @@ var install = (function ($) {
 		};
 		
 		var animateLoop = function() {
-			if(! running)return;
+			if(!running) return;
 			requestAnimFrame(animateLoop);
 			render();
 		};
@@ -405,6 +405,7 @@ var install = (function ($) {
 			refresh: function() {
 				updatePosition();
 				render(true);
+        animateLoop();
 			},
 			disable: function() {
 				options.disabled = true;

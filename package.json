@@ -1,6 +1,6 @@
 {
   "name": "jquery-scroller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Momentum scrolling, using either native scroll or absolutely positioned elements. Barebones!",
   "main": "index.js",
   "scripts": {
